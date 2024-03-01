@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Kutubxona</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Logo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Biz haqimizda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Fikir va izohlar uchun</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Yordam</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="text" placeholder="Kitob yoki Muallif nomni">
+            <button class="btn btn-primary" type="button">Qidiruv</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <div class="menu">
+        <h2><img class="rounded-circle" src="https://lh3.googleusercontent.com/proxy/eO-YLLmLP6prRvDKr7LOXuMwOqlVPqQrEdUl4lwSELwiVEQHnzCAREW3NKlJyAUL7vsibVC2qAUVRXm2tV4Tf_h-qAVeNgfdoHDOa7_Y25gabvMMARHxFTQ7eEy9xfU" alt="image error">
+            KUTUBXONA
+        </h2>
+
+    </div>
+    <div class="havola">
+        <ul class="nav justify-content-center nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Yangi kitoblar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Eng sara kitoblar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Eng ko'p yulab olingan kitoblar</a>
+          </li>
+        </ul>
+    </div>
+        <!-- Carousel -->
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+      <!-- Indicators/dots -->
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+        <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      </div>
+
+      <!-- The slideshow/carousel -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://api.kitob.itsm.uz/data/books/cover/3969.jpg" alt="Los Angeles" class="d-block">
+        </div>
+        <div class="carousel-item">
+          <img src="https://api.kitob.itsm.uz/data/books/cover/3974.jpg" alt="Chicago" class="d-block">
+        </div>
+        <div class="carousel-item">
+          <img src="https://api.kitob.itsm.uz/data/books/cover/3937.jpg" alt="New York" class="d-block">
+        </div>
+        </div>
+
+      <!-- Left and right controls/icons -->
+      <button style="margin-left: 10%; padding: 15%" class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </button>
+      <button style="margin-right: 10%; padding: 15%;" class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </button>
+    </div>
+    <div class="book-list nav-tabs">
+        <h2>Barcha kitoblar</h2>
+        <table class="table table-dark table-hover" style="margin: 0">
+            <tr>
+                <th>№</th>
+                <th>Janir</th>
+                <th>soni</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>O'zbek adabiyoti</td>
+                <td>1361</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Jahon adabiyoti</td>
+                <td>483</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Tarix</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Doston</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>Tibbiyot</td>
+                <td>15</td>
+            </tr>
+        </table>
+    </div>
+    <div class="menu-end">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Yangiliklar</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Biz bilan aloqa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hafzilik</a>
+          </li>
+        </ul>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
